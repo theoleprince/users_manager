@@ -6,8 +6,8 @@ import {AuthentificationService} from './authentification.service'
 export class AuthGuardService implements CanActivate {
     constructor(private auth:AuthentificationService, private router: Router){}
 
-    canActivate(){
-        if(!this.auth.isLoggedIn()){
+    canActivate () {
+        if(!this.auth.isLoggedIn()) {
             this.router.navigateByUrl('/')
             return false
         }

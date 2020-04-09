@@ -17,5 +17,6 @@ export class ProfileComponent {
             err => {
                 console.error(err)
             }
-        )    }
+       )  
+    }  
 }

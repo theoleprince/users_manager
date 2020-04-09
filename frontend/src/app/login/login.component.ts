@@ -7,7 +7,7 @@ import {Router} from '@angular/router'
 })
 export class LoginComponent {
     credentials: TokenPayload = {
-        id:0,
+        id: 0,
         name: '',
         email: '',
         password: '',
